@@ -31,7 +31,7 @@ li {
 input[type="text"],
 input[type="password"],
 input[type="file"] {
-  width: 800px;
+  width: 50%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -64,8 +64,11 @@ a.link:hover {
 }
 
 img {
-  max-width: 800px; /* Забезпечує, що ширина картинки не перевищить ширину батьківського контейнера */
+  width: 800px; /* Забезпечує, що ширина картинки не перевищить ширину батьківського контейнера */
   height: auto; /* Забезпечує пропорційність при зміні розмірів */
   margin-top: 20px; /* Додано відступ зверху для картинки */
   border-radius: 20px; /* Заокруглення кутів */
+}
+.inputs {
+  width: 800px;
 }
